@@ -1,6 +1,6 @@
 import React from 'react'
 import * as S from './styled'
-import { FeaturedText } from '../../styled'
+import { FeaturedText, Button } from '../../styled'
 
 export default function SignIn() {
     return (
@@ -9,7 +9,7 @@ export default function SignIn() {
                 <h3>Logo HealthAnywhere</h3>
                 <S.Input placeholder='Email'/>
                 <S.Input placeholder='Senha'/>
-                <S.Button>Entrar</S.Button>
+                <Button>Entrar</Button>
                 <FeaturedText>esqueci a senha</FeaturedText>
             </S.LoginBox>
             <S.Credit>
